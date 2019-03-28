@@ -1,0 +1,25 @@
+{
+  "name": "django-webpack",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "dependencies": {
+    "uikit": "^3.0.3",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "style-loader": "^0.23.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
